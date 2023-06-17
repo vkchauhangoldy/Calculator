@@ -1,0 +1,69 @@
+.container {
+  background: linear-gradient(to top left, #ffc078, #f03e3e);
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.calculator {
+  width: 32rem;
+  background: linear-gradient(to top left, #a9e34b, #1971c2);
+  display: grid;
+  gap: 1rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-content: center;
+  padding: 3rem 0;
+}
+.heading {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.heading h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #f1f3f5;
+}
+.heading h1 span,
+.heading p span {
+  color: #2b8a3e;
+}
+.heading p {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f1f3f5;
+}
+.header {
+  text-align: center;
+}
+.header h1 {
+  color: #f1f3f5;
+  font-size: 2.5rem;
+}
+
+.output input {
+  width: 100%;
+  padding: 1.2rem;
+  outline: 0;
+  border: 0;
+  border-radius: 0.4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: right;
+}
+.controls {
+  display: flex;
+  gap: 1rem;
+}
+.controls button {
+  flex: 1;
+  padding: 1.2rem;
+  outline: 0;
+  border: 0;
+  border-radius: 0.4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
